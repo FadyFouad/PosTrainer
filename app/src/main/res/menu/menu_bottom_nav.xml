@@ -18,4 +18,5 @@
             android:contentDescription="@string/settings_title"
             android:iconTint="@color/WHITE"
             android:title="@string/settings" />
+
 </menu>
