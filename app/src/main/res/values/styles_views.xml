@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- I put style data which effects Views/Widgets/ViewGroups here. -->
+    <!-- *********************** Input Fields  *********************** -->
+    <style name="InputReminderName" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColorHint">@color/windowBackground</item>
+        <item name="android:inputType">textCapWords|textNoSuggestions</item>
+        <item name="android:colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- *********************** Labels  *********************** -->
+    <style name="Label">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:alpha">.86</item>
+        <item name="android:textColor">@color/WHITE</item>
+    </style>
+
+    <style name="MovementText">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+    </style>
+
+    <style name="MovementText.Header">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/label_rounded_background_dark</item>
+    </style>
+
+    <style name="MovementText.Header.MovementItem">
+        <item name="android:background">@drawable/label_rounded_background_light</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:paddingStart">0dp</item>
+
+    </style>
+
+    <style name="MovementText.Header.Sub">
+        <item name="android:fontFamily">sans-serif-medium-condensed</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <style name="MovementText.Content">
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="Label.ReminderWidget" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/WHITE</item>
+    </style>
+
+    <style name="Label.InputSub" parent="android:Widget.TextView">
+        <item name="android:textColorPrimary">@color/LIGHT_GREY</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Label.BrandHeader" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- *********************** Containers  *********************** -->
+
+    <!-- *********************** ImageView/Buttons  *********************** -->
+
+    <style name="MovementIcon">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:tint">@color/WHITE</item>
+    </style>
+
+    <style name="MovementIcon.MovementItemTarget">
+        <item name="android:tint">@color/MINT_GREEN</item>
+    </style>
+
+    <!-- Inheritience here as applied strictly to make it easy to look this thing up LOL -->
+    <style name="MovementIcon.MovementItemDifficulty">
+        <item name="android:src">@drawable/ic_star_white_24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:visibility">invisible</item>
+
+        <item name="android:tint">@color/colorAccent</item>
+
+
+    </style>
+
+
+    <style name="BottomBar" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- *********************** Toolbar  *********************** -->
+
+
+    <!-- *********************** Others android:Widget.Material.Light.TimePicker *********************** -->
+    <style name="CustomTimePicker" parent="android:Widget.Material.Light.TimePicker">
+        <item name="android:timePickerMode">clock</item>
+        <item name="android:headerBackground">@color/colorAccent</item>
+        <item name="android:numbersTextColor">@color/BLACK</item>
+        <item name="android:numbersSelectorColor">@color/colorPrimary</item>
+        <item name="android:numbersBackgroundColor">@color/WHITE</item>
+        <item name="android:amPmTextColor">@color/ALPHA_WHITE</item>
+    </style>
+
+    <style name="CheckboxCustomOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/WHITE</item>
+        <item name="android:textColorSecondary">@color/WHITE</item>
+    </style>
+
+    <style name="Reminder_Switch_Theme" parent="ThemeOverlay.AppCompat">
+        <item name="colorControlActivated">@color/MINT_GREEN</item>
+    </style>
+
+    <style name="CheckBox_White_Border" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="DividerAccent">
+        <item name="android:background">@drawable/horizontal_divider_accent</item>
+    </style>
+
+    <style name="DividerAccent.UserDetail">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+</resources>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">PosTrainer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Reminder -->
+    <string name="reminders_on">ON</string>
+    <string name="reminders_off">OFF</string>
+    <string name="reminders_prompt">Hit "+" to Create a New Reminder</string>
+    <string name="reminder_title">Reminder Title</string>
+
+    <!-- ManageReminder -->
+    <string name="manage_reminder_title_hint">Reminder Title</string>
+    <string name="manage_reminder_vibrate">Vibrate Only</string>
+    <string name="manage_reminder_renew">Renew Automatically</string>
+
+    <!-- MovementDetail -->
+
+
+    <!-- SettingsActivity -->
+    <string name="settings_button_about">About</string>
+    <string name="settings_button_disclaimer">Disclaimer</string>
+    <string name="settings_button_contact">Contact</string>
+    <string name="settings_version_number">Version: 2.0</string>
+
+    <!--Toolbar Titles -->
+    <string name="settings_title">About</string>
+
+    <!-- Other -->
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="disclaimer_body">The information provided within this App, must at no point be considered as
+        professional advice.
+        I have selected a series of low-impact Stretches and Exercises which, in my admittedly unprofessional opinion,
+        may alleviate postural imbalances associated with being a desk jockey.
+        All forms of Exercise carry a risk of injury, however small. Some of the movements may stretch/activate muscles
+        which haven\'t seen a lot of stretching/activation in a long time.
+        I implore you to take extreme caution when performing any of the movements for the first time, performing only a
+        few repetitions and not going beyond a \'light stretching\' sensation.
+        If you experience excessive pain during, or any level of long-term pain after a movement, consult a professional
+        before performing any more movements. You have been warned.
+    </string>
+    <string name="disclaimer_title">Damnit Jim, I\'m a Programmer, not a Doctor!</string>
+    <string name="disclaimer_check_box">I understand the risk.</string>
+    <string name="disclaimer_button">Proceed</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_title">Contact Information</string>
+    <string name="contact_info">
+        Website: wiseassblog.com\n
+        Youtube: youtube.com/wiseass\n
+        Facebook: facebook.com/wiseassblog\n
+        G+: google.com/+wiseass
+    </string>
+    <string name="stop_reminder">Stop Reminder</string>
+    <string name="menu_item_reminders">Reminders</string>
+    <string name="menu_item_movements">Movements</string>
+    <string name="menu_item_about">About</string>
+    <string name="error_database_write_failure">Unable to write to Database :(</string>
+    <string name="message_database_write_successful">Reminder updated Succesfully</string>
+    <string name="prompt_new_reminder">Hit \"+\" to \nProceed</string>
+    <string name="error_database_connection_failure">Couldn\'t connect to Database</string>
+    <string name="msg_reminder_activated">Reminder Activated</string>
+    <string name="msg_reminder_deactivated">Reminder Deactivated</string>
+    <string name="msg_reminder_deleted">Reminder Deleted</string>
+    <string name="def_reminder_name">New Reminder</string>
+    <string name="msg_reminder_limit_reached">Maximun Reminders per Day is 5.</string>
+    <string name="error_invalid_reminder_id">That\'s not supposed to happen. Contact the Dev. if this message keeps
+        appearing.
+    </string>
+    <string name="error_managing_reminder">Error Managing Reminder</string>
+    <string name="error_starting_reminder">Unable to Start Reminder</string>
+    <string name="action_delete_item">Reminder Deleted</string>
+    <string name="action_undo">UNDO</string>
+    <string name="error_unable_to_retrieve_reminder">Unable to Restore Reminder</string>
+    <string name="description">Description</string>
+    <string name="instructions">Instructions</string>
+    <string name="movements">Movements</string>
+    <string name="reminders">Reminders</string>
+    <string name="settings">Settings</string>
+</resources>

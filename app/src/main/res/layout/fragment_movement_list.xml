@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/rootMovementListFragment"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:layout_editor_absoluteY="25dp"
+                                                   tools:layout_editor_absoluteX="0dp"
+                                                   tools:context=".MainActivity"
+>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tlbReminderList"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintLeft_creator="1">
+
+        <TextView
+                android:id="@+id/lblReminderListBrandHeader"
+                style="@style/Label.BrandHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingStart="16dp"
+                android:gravity="center_vertical|left"
+                android:text="@string/movements"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_constraintLeft_creator="1"
+                app:layout_constraintVertical_bias="1.0" app:layout_constraintStart_toStartOf="parent"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recMovementList"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            android:background="@color/colorPrimary"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:listitem="@layout/item_movement"
+            app:layout_constraintTop_toBottomOf="@+id/tlbReminderList"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavMovements"/>
+
+    <ProgressBar
+            android:id="@+id/proMovementList"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:background="@color/colorPrimary"
+            android:indeterminate="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tlbReminderList"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavMovements"
+    />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            style="@style/BottomBar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:itemIconTint="@drawable/bottom_bar_focus_colors"
+            app:itemTextColor="@drawable/bottom_bar_focus_colors"
+            android:id="@+id/bottomNavMovements"
+            app:menu="@menu/menu_bottom_nav"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
