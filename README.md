@@ -5,8 +5,7 @@
 * [What is PosTrainer?](#what-is-postrainer)
 * [Can I use the code?](#can-i-use-code-from-this-repo)
 * [Learning Sources/Inspiration](#sources-and-inspiration)
-* [Support Me](#contactsupport-me)
-* [License](#license)
+
 
 ## What is PosTrainer?
 
