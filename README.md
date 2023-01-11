@@ -10,10 +10,7 @@
 
 ## What is PosTrainer?
 
-PosTrainer is an Notification adn Exercise instruction App which allows the user to set daily reminders to sit up Straight and/or Perform stretches/exercises to combat bad Posture from being a Desk Jockey. 
-
-This App is available on the Play Store here (if you learn something from the code, consider downloading and rating the app):
-https://play.google.com/store/apps/details?id=com.bracketcove.postrainer
+PosTrainer is an Notification adn Exercise instruction App which allows the user to set daily reminders to sit up Straight and/or Perform stretches/exercises to combat bad Posture from being a Desk Jockey.
 
 ### Reminders Component
 <img src="pos_screen_reminders.jpg" alt="Reminder List Screen" width="270" height="480"/>
@@ -68,35 +65,3 @@ Donn and Kaushik from Fragmented Podcast did an episode on Clean, which also hel
 
 http://fragmentedpodcast.com/episodes/11/
 
-
-
-## Contact/Support me:
-It's my personal goal to create free high-quality content, accesible by anyone who has an Internet connection, as I don't feel ownership over knowledge which has graciously been given to me for free (I've never taken a paid course for Android Development).
-
-That being said, if the 200+ hours of my time spent coding, researching, making learning aids, and producing content for this project, and the effort I take to explain things in a simple and clear way (which I often fail to do), is worth throwing a bit of money at, then please do!
-
-If you're in a position where monetary support isn't an option, then you can also help out by liking/sharing my stuff on Social Media. This helps me with SEO and building an audience, and I greatly appreciate it! Lastly, drop me a comment on one of my videos.
-
-[G+](https://plus.google.com/+wiseass)
-
-[Facebook](https://www.facebook.com/wiseassblog/)
-
-[Twitter](https://twitter.com/wiseAss301)
-
-[Primary Website](http://wiseassblog.com/)
-
-## License
- * Copyright 2016, The Android Open Source Project
- * 
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
